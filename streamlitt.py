@@ -2,9 +2,9 @@ import numpy as np
 import pandas as pd
 import streamlit as st 
 import sklearn
-import pickle
+import joblib
 
-model = pickle.load(open("model1.pkl","rb"))
+model = joblib.load("my_model3.pkl")
 cols=['Suhu, Detak Jantung, Saturasi Oksigen']    
   
 def main(): 
