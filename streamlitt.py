@@ -1,7 +1,6 @@
 import numpy as np
 import pandas as pd
 import streamlit as st 
-import sklearn
 import joblib
 
 model = joblib.load("my_model3.pkl")
@@ -46,7 +45,7 @@ def main():
         elif output == 7:
           text = "Suhu,detak jantung, dan saturasi oksigen tidak normal"  
         elif output == 4:
-            text = "Suhu,detak jantung, dan saturasi oksigen tidak normal"
+            text = "Suhu dan detak jantung tidak normal"
         else:
            text = "-"
 
