@@ -1,8 +1,6 @@
 numpy>=1.9.2
 python
 scikit-learn==1.0.2
-matplotlib>=1.4.3
 pandas>=0.19
 streamlit>=1.23.1
-altair
 pickle
