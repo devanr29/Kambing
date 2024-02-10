@@ -2,7 +2,6 @@ import numpy as np
 import pandas as pd
 import streamlit as st 
 import pickle
-import sklearn
 
 model = pickle.load(open("model1.pkl","rb"))
 cols=['Suhu, Detak Jantung, Saturasi Oksigen']    
